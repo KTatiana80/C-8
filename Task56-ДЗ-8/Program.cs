@@ -86,4 +86,3 @@ for (int i = 0; i < array2D.GetLength(0); i++)
 }
 int indexMin = GetIndexMinElem(sum);
 Console.WriteLine($"Наимен6шая сумма элементов в строке {indexMin + 1}");
-
