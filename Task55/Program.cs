@@ -49,7 +49,7 @@ int[,] TurnMatrix(int[,] matrix)
     return newMatrix;
 }
 //Тело программы
-int[,] array2d = CreateMatrixRndInt(5, 6, 10, 100);
+int[,] array2d = CreateMatrixRndInt(5, 5, 10, 100);
 PrintMatrix(array2d);
 Console.WriteLine();
 if (array2d.GetLength(0) != array2d.GetLength(1))
@@ -61,5 +61,3 @@ else
     int[,] turnedArray2d = TurnMatrix(array2d);
     PrintMatrix(turnedArray2d);
 }
-
-// вариант 2
